@@ -1,0 +1,15 @@
+[package]
+name = "termi-talk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+ratatui = "0.29.0"
+mistralrs = { git = "https://github.com/EricLBuehler/mistral.rs.git", features = ["cuda"] }
+anyhow = "1.0.91"
+tokio = "1.41.0"
+reqwest = "0.12.9"
+directories = "5.0.1"
+indexmap = "2.6.0"
+either = "1.13.0"
